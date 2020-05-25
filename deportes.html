@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina con materialize</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css''>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css''>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='js/jquery.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/misfunciones.js'></script>
+    
+</head>
+<body>
+        <!-- barra de navegacion -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Futbol</a></li>
+        <li><a href="#!">Baloncesto</a></li>
+        <li><a href="#!">Voleibol</a></li>
+        <li><a href="#!">Tenis</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">INICIO</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="general.html">GENERAL</a></li>
+            <li><a href="deportes.html">DEPORTES</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">TIPO DE DEPORTE<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container">
+    <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#Futbol">Futbol</a></li>
+            <li class="tab col s3"><a class="active" href="#Baloncesto">Baloncesto</a></li>
+            <li class="tab col s3 "><a href="#Voleibol">Voleibol</a></li>
+            <li class="tab col s3"><a href="#Tenis">Tenis</a></li>
+          </ul>
+        </div>
+        <div id="Futbol" class="col s12">
+            <div align="center">
+                <h4>FUTBOL</h4>
+                <p> <img src="img/futbol.jpg"></p>
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">MAS INFORMACION</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <h4>FUTBOL</h4>
+                    <p><h4>CONTACTOS:</h4>
+                    celular:3117562334<br>
+                    telefono:7245678<br>
+                    direccion:Calle 18 No. 25 - 59
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">ACEPTAR</a>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="Baloncesto" class="col s12">
+            <div align="center">
+                <h4>BALONCESTO</h4>
+                <p> <img src="img/baloncesto.jpg"></p>
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal2">MAS INFORMACION</a>
+
+                <!-- Modal Structure -->
+                <div id="modal2" class="modal">
+                  <div class="modal-content">
+                    <h4>BALONCESTO</h4>
+                    <p><h4>CONTACTOS:</h4>
+                        celular:3126778998<br>
+                        telefono:7247654<br>
+                        direccion:Calle 24 No. 15 - 23
+                        </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">ACEPTAR</a>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="Voleibol" class="col s12">
+            <div align="center">
+                <h4>VOLEIBOL</h4>
+                <p> <img src="img/voleibol.jpg"></p>
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal3">MAS INFORMACION</a>
+
+                <!-- Modal Structure -->
+                <div id="modal3" class="modal">
+                  <div class="modal-content">
+                    <h4>VOLEIBOL</h4>
+                    <p><h4>CONTACTOS:</h4>
+                        celular:3205677656<br>
+                        telefono:7242112<br>
+                        direccion:Calle 5 No. 12 - 25
+                        </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">ACEPTAR</a>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="Tenis" class="col s12">
+            <div align="center">
+                <h4>TENIS</h4>
+                <p> <img src="img/tenis.jpg"></p>
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal4">MAS INFORMACION</a>
+
+                <!-- Modal Structure -->
+                <div id="modal4" class="modal">
+                  <div class="modal-content">
+                    <h4>TENIS</h4>
+                    <p><h4>CONTACTOS:</h4>
+                        celular:3197253452<br>
+                        telefono:7245678<br>
+                        direccion:Calle 17 No. 20 - 58
+                        </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">ACEPTAR</a>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    
+      </div>
+    </div>
+            

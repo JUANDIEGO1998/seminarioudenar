@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina con materialize</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css''>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css''>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='js/jquery.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/misfunciones.js'></script>
+    
+</head>
+<body>
+        <!-- barra de navegacion -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Futbol</a></li>
+        <li><a href="#!">Baloncesto</a></li>
+        <li><a href="#!">Voleibol</a></li>
+        <li><a href="#!">Tenis</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">INICIO</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="general.html">INFORMACION DEPORTES</a></li>
+            <li><a href="deportes.html">DEPORTES-CONTACTOS</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">TIPO DE DEPORTE<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+        </div>
+    </nav>
+    <nav> <!-- navbar content here  --> </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="img/fondo.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="img/Voleibol.jpg"></a>
+        <a href="#name"><span class="white-text name">JUAN DIEGO</span></a>
+        <a href="#email"><span class="white-text email">jdrosero7@gmail.com</span></a>
+      </div></li>
+      <li><a href="#!">JUAN DIEGO ROSERO</a></li>
+      <li><a href="#!">jdrosero7@gmail.com</a></li>
+      <li><a href="#!">ingenieria de sistemas<br> universidad de nariño</a></li>
+      
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <div class="carousel carousel-slider">
+        <a class="carousel-item" ><img src="img/inicio.jpg"></a>
+        <a class="carousel-item" ><img src="img/inicio.jpg"></a>
+        <a class="carousel-item" ><img src="img/inicio.jpg"></a>
+        <a class="carousel-item" ><img src="img/inicio.jpg"></a>
+      </div>
+      
+</body>
+</html>
